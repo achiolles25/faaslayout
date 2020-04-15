@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminViewApplication"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/building1"
+        android:layout_marginHorizontal="@android:dimen/app_icon_size"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Property Assessment"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Classification"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:paddingLeft="35dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/arpnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editform"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textSize="25sp"
+        android:hint="ARP Number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/editform"
+        android:inputType="number"
+        android:id="@+id/pinnumber"
+        android:textSize="25sp"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:hint="PIN Number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Owner"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/editform"
+        android:id="@+id/owner"
+        android:textSize="25sp"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Market Value"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:paddingLeft="35dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/editform"
+        android:id="@+id/address"
+        android:textSize="25sp"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Address"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:inputType="number"
+        android:background="@drawable/editform"
+        android:id="@+id/tellumber"
+        android:textSize="25sp"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Tel. No."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:inputType="number"
+        android:background="@drawable/editform"
+        android:id="@+id/taxyearly"
+        android:textSize="25sp"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Tax Yearly"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@drawable/form"
+        android:layout_gravity="end"
+        android:id="@+id/btn_submitFinal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="25dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

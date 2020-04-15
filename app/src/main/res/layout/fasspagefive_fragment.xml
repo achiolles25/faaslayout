@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="STRUCTURE CHARACTERISTICS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Structure Type"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:paddingLeft="35dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/structuretype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editform"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textSize="25sp"
+        android:hint="Structure Type"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bld. Classification"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:paddingLeft="35dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/buildingclasification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editform"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textSize="25sp"
+        android:hint="Bldg Clasification"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bldg. Permit"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:paddingLeft="35dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/buildingpermit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editform"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textSize="25sp"
+        android:hint="Bldg Permit"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bld Age"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:paddingLeft="35dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/buildingage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editform"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textSize="25sp"
+        android:hint="Bldg Age"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No. Of Storeys"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:paddingLeft="35dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/numberofstoreys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editform"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textSize="25sp"
+        android:hint="No. Of Storeys"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@drawable/form"
+        android:layout_gravity="end"
+        android:id="@+id/btn_submitFinal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="25dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
